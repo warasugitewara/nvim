@@ -4,8 +4,30 @@ return {
   "vyfor/cord.nvim",
   config = function()
     require("cord").setup({
-      -- 必要に応じて設定を追加
+      display = {
+        theme = "default",
+        flavor = "dark",
+        view = "full",
+      },
+      text = {
+        viewing = function(opts)
+          return "Viewing " .. opts.filename
+        end,
+        editing = function(opts)
+          return "Editing " .. opts.filename
+        end,
+        workspace = function(opts)
+          return "Working in " .. opts.workspace
+        end,
+      },
+      buttons = {
+        {
+          label = "View Repository",
+          url = function(opts)
+            return opts.repo_url
+          end,
+        },
+      },
     })
   end,
-  dependencies = { "nvim-lua/plenary.nvim" }, -- Cord.nvim は plenary に依存
 }
