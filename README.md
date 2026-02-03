@@ -3,6 +3,27 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+## 📦 Installed Plugins
+
+### Plugin List (A-Z)
+
+| Plugin | Description |
+|--------|-------------|
+| **Copilot** | GitHub Copilot integration for AI-powered code suggestions (Ctrl+A to accept) |
+| **Cord** | Discord Rich Presence plugin to display your Neovim activity status |
+| **Dashboard** | Custom startup dashboard with recent files, quick actions, and ASCII art |
+| **Dropbar** | Breadcrumb-style winbar showing code context and symbols |
+| **Markview** | Markdown preview and rendering plugin for better markdown visualization |
+| **Nvim-java** | Java development support with LSP integration (JDTLS) |
+| **Nvim-scrollbar** | Visual scrollbar with markers for search results, errors, and diagnostics |
+| **Telescope** | Fuzzy finder for files, buffers, and other searches |
+| **Telescope-fzf** | Native FZF extension for Telescope with faster fuzzy matching |
+| **Tokyo Night** | Beautiful dark theme with transparent background support |
+| **Treesitter-context** | Displays code context (function/class scope) at the top of the window |
+| **UI** | General UI enhancements and improvements |
+
+---
+
 ## 📋 Features
 
 ### 🎮 Discord Rich Presence (cord.nvim)
